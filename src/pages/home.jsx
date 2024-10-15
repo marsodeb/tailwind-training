@@ -1,8 +1,14 @@
+import Card from '../components/Card/card';
 import Header from '../components/Header/header';
 
 function Home() {
   return (
-    <Header />
+    <>
+      <Header />
+      <section>
+        <Card />
+      </section>
+    </>
   )
 }
 
